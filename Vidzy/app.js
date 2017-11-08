@@ -61,6 +61,6 @@ passport.serializeUser(Account.serializeUser());
 passport.deserializeUser(Account.deserializeUser());
 
 // mongoose
-mongoose.connect('mongodb://localhost/passport_local_mongoose_express4');
+mongoose.connect('vidzy:videos@ds243055.mlab.com:43055/vidzy');
 
 module.exports = app;
